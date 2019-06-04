@@ -76,8 +76,6 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-*.uasset
-
 Content/StarterContent/Maps/StarterMap_BuiltData.uasset
 Content/UI/MainMenu/HostMenu.uasset
 Content/UI/MainMenu/MainMenu.uasset
