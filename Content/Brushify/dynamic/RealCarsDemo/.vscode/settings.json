@@ -1,0 +1,11 @@
+{
+	"files.exclude": {
+		"D:/Work3/Unreal/CarTestBench/.svn": true,
+		"D:/Work3/Unreal/CarTestBench/.vscode": true,
+		"D:/Work3/Unreal/CarTestBench/Content": true,
+		"D:/Work3/Unreal/CarTestBench/Intermediate": true,
+		"D:/Work3/Unreal/CarTestBench/Saved": true,
+		"D:/Work3/Unreal/CarTestBench/_Deploy": true,
+		"D:/Work3/Unreal/CarTestBench/_Private": true
+	}
+}
