@@ -1,0 +1,1517 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"taskName": "CarTestBench Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win32",
+				"Debug",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win32",
+				"Debug",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"Win32",
+				"Debug",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win32",
+				"DebugGame",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win32",
+				"DebugGame",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"Win32",
+				"DebugGame",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win32",
+				"Development",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win32",
+				"Development",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"Win32",
+				"Development",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win32",
+				"Shipping",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win32",
+				"Shipping",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"Win32",
+				"Shipping",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win32",
+				"Test",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win32",
+				"Test",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"Win32",
+				"Test",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win64",
+				"Debug",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win64",
+				"Debug",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"Win64",
+				"Debug",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win64",
+				"DebugGame",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win64",
+				"DebugGame",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"Win64",
+				"DebugGame",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win64",
+				"Development",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win64",
+				"Development",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"Win64",
+				"Development",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win64",
+				"Shipping",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win64",
+				"Shipping",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"Win64",
+				"Shipping",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win64",
+				"Test",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Win64",
+				"Test",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"Win64",
+				"Test",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"IOS",
+				"Debug",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"IOS",
+				"Debug",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"IOS",
+				"Debug",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"IOS",
+				"DebugGame",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"IOS",
+				"DebugGame",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"IOS",
+				"DebugGame",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"IOS",
+				"Development",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"IOS",
+				"Development",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"IOS",
+				"Development",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"IOS",
+				"Shipping",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"IOS",
+				"Shipping",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"IOS",
+				"Shipping",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"IOS",
+				"Test",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"IOS",
+				"Test",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"IOS",
+				"Test",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Android",
+				"Debug",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Android",
+				"Debug",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"Android",
+				"Debug",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Android",
+				"DebugGame",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Android",
+				"DebugGame",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"Android",
+				"DebugGame",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Android",
+				"Development",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Android",
+				"Development",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"Android",
+				"Development",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Android",
+				"Shipping",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Android",
+				"Shipping",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"Android",
+				"Shipping",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Android",
+				"Test",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"Android",
+				"Test",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"Android",
+				"Test",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"HTML5",
+				"Debug",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"HTML5",
+				"Debug",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"HTML5",
+				"Debug",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"HTML5",
+				"DebugGame",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"HTML5",
+				"DebugGame",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"HTML5",
+				"DebugGame",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench HTML5 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"HTML5",
+				"Development",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"HTML5",
+				"Development",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"HTML5",
+				"Development",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"HTML5",
+				"Shipping",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"HTML5",
+				"Shipping",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"HTML5",
+				"Shipping",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench HTML5 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"HTML5",
+				"Test",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBench",
+				"HTML5",
+				"Test",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBench HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBench HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBench",
+				"HTML5",
+				"Test",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBenchEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBenchEditor",
+				"Win64",
+				"Debug",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBenchEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBenchEditor",
+				"Win64",
+				"Debug",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBenchEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBenchEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBenchEditor",
+				"Win64",
+				"Debug",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBenchEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBenchEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBenchEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBenchEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBenchEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBenchEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBenchEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBenchEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBenchEditor",
+				"Win64",
+				"Development",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBenchEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CarTestBenchEditor",
+				"Win64",
+				"Development",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CarTestBenchEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		},
+		{
+			"taskName": "CarTestBenchEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CarTestBenchEditor",
+				"Win64",
+				"Development",
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Development\\UE_4.19"
+			}
+		}
+	]
+}
