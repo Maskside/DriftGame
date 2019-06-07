@@ -1,0 +1,130 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "CarTestBench (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CarTestBench Win64 Debug Build",
+			"program": "D:\\Work3\\Unreal\\CarTestBench\\Binaries\\Win64\\CarTestBench-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Development\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Development\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CarTestBench (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CarTestBench Win64 DebugGame Build",
+			"program": "D:\\Work3\\Unreal\\CarTestBench\\Binaries\\Win64\\CarTestBench-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Development\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Development\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CarTestBench (Development)",
+			"request": "launch",
+			"preLaunchTask": "CarTestBench Win64 Development Build",
+			"program": "D:\\Work3\\Unreal\\CarTestBench\\Binaries\\Win64\\CarTestBench.exe",
+			"args": [
+			],
+			"cwd": "C:\\Development\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Development\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CarTestBench (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "CarTestBench Win64 Shipping Build",
+			"program": "D:\\Work3\\Unreal\\CarTestBench\\Binaries\\Win64\\CarTestBench-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Development\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Development\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CarTestBench (Test)",
+			"request": "launch",
+			"preLaunchTask": "CarTestBench Win64 Test Build",
+			"program": "D:\\Work3\\Unreal\\CarTestBench\\Binaries\\Win64\\CarTestBench-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Development\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Development\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CarTestBenchEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CarTestBenchEditor Win64 Debug Build",
+			"program": "C:\\Development\\UE_4.19\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-debug"
+			],
+			"cwd": "C:\\Development\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Development\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CarTestBenchEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CarTestBenchEditor Win64 DebugGame Build",
+			"program": "C:\\Development\\UE_4.19\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject",
+				"-debug"
+			],
+			"cwd": "C:\\Development\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Development\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CarTestBenchEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "CarTestBenchEditor Win64 Development Build",
+			"program": "C:\\Development\\UE_4.19\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject"
+			],
+			"cwd": "C:\\Development\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Development\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Development\\UE_4.19\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\Work3\\Unreal\\CarTestBench\\CarTestBench.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Development\\UE_4.19"
+		}
+	]
+}
